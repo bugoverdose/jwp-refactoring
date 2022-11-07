@@ -1,5 +1,13 @@
 # 키친포스
 
+## Gradle 멀티 모듈 구성
+
+`ui` -> `application` -> `core`
+
+- `ui`: API 관련. 컨트롤러 빈들로 구성.
+- `application`: 비즈니스 로직 관련. 서비스 빈들로 구성.
+- `core`: domain, repository 패키지로 구성.
+
 ## 요구 사항
 
  클래스 사이, 패키지 사이의 의존 관계는 단방향이 되도록 해야 한다.
